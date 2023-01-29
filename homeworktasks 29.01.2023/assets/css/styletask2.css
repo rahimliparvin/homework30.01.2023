@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbars{
+    height: 730px;
+    background-color: #060e2f;
+    margin-right:5px ;
+}
+.navbars .navbar{
+    display: flex;
+    padding-top: 20px;
+}
+.navbars .navbar h2{
+    display: flex;
+    margin-left: 300px;
+    color: white;
+    font-family: sans-serif;
+
+}
+.navbars .navbar .ul1{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.navbars .navbar .ul1 li{
+    list-style: none;
+}
+.navbars .navbar .ul1 li a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    
+}
+.navbars .navbar .ul2{
+    display: flex;
+    justify-content: end;
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.navbars .navbar .ul2 li{
+    list-style: none;
+}
+.navbars .navbar .ul2 li a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+
+}
+.navbars .navbar .ul2 li .a2 {
+    background-color: rgb(59, 149, 223);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    border-radius: 3px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+.navbars .navbar .ul2 li .a2 i{
+    padding-left: 10px;
+    color: white
+
+}
+.center{
+    text-align: center;
+    margin-top: 100px;
+}
+.center span{
+    color: white;
+}
+.center .wel{
+    color:rgb(59, 149, 223) ;
+    font-family: sans-serif;
+}
+.center .sell{
+    margin-top: 40px;
+    font-size: 45px;
+    font-family: sans-serif;
+    display: block;
+
+}
+.center span{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.navbars .buttons{
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+.navbars .buttons .button1{
+text-decoration: none;
+background-color:rgb(59, 149, 223);
+color: white;
+padding-top: 10px;
+PADDING-BOTTOM: 10px;
+padding-left: 15px;
+padding-right: 15px;
+font-size: 11px;
+border-radius: 4px;
+font-family: sans-serif;
+}
+.navbars .buttons .button2{
+    text-decoration: none;
+    border:1px solid rgb(59, 149, 223);
+    color:rgb(59, 149, 223);
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 11px;
+    font-family: sans-serif;
+    border-radius: 4px
+}
+.end{
+    display: flex;
+    gap:25px;
+    margin-top: 20px;
+}
+
+.end .end1{
+    margin-left: 300px;
+    margin-top: 50px;
+    width: 250px;
+    height: 200px;
+    background-color: white;
+}
+.end .end1 i{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    background-color:#dda196;;
+    padding: 10px;
+    color: red;
+    border-radius: 5px;
+}
+.end .end1 h3{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.end .end1 hr{
+    width: 35px;
+    margin-left: 20px;
+    border: 1px solid red;
+    margin-top: -5px
+}
+.end .end1 span{
+    margin-left: 20px;
+    font-size: 12px;
+    margin-right: 40px;
+    display: block;
+    font-family: sans-serif;
+    line-height: 1.4;
+    color: rgb(70, 67, 67);
+}
+.end .end2{
+    margin-top: 50px;
+    width: 250px;
+    height: 200px;
+    background-color: white;
+}
+.end .end2 i{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    background-color:#00e757;
+    padding: 10px;
+    color:rgb(28, 125, 216);
+    border-radius: 5px;
+}
+.end .end2 h3{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.end .end2 hr{
+    width: 35px;
+    margin-left: 20px;
+    border: 1px solid red;
+    margin-top: -5px
+}
+.end .end2 span{
+    margin-left: 20px;
+    font-size: 12px;
+    margin-right: 40px;
+    display: block;
+    font-family: sans-serif;
+    line-height: 1.4;
+    color: rgb(70, 67, 67);
+}
+.end .end3{
+    margin-top: 50px;
+    width: 250px;
+    height: 200px;
+    background-color: rgb(59, 149, 223);
+}
+.end .end3 i{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    background-color:white;
+    padding: 10px;
+    color:rgb(28, 125, 216);
+    border-radius: 5px;
+}
+.end .end3 h3{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.end .end3 hr{
+    width: 35px;
+    margin-left: 20px;
+    border: 1px solid white;
+    margin-top: -5px
+}
+.end .end3 span{
+    margin-left: 20px;
+    font-size: 12px;
+    margin-right: 40px;
+    display: block;
+    font-family: sans-serif;
+    line-height: 1.4;
+    color: white;
+}

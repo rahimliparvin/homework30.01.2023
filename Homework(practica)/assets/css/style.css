@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.items{
+margin-top: 20px;
+}
+.items ul{
+    list-style: none;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    margin-right: 100px;
+    justify-content: end;
+}
+.items ul li{
+    margin-left: 10px;
+}
+.items ul .line{
+    height: 40px;
+    width: 1px;
+    margin-left: 10px;
+    background-color: black;
+}
+.items a{
+    text-decoration: none;
+}
+.content{
+    width: 500px;
+}
+.content p img{
+    width: 150px;
+    height: 200px;
+    margin: 0px 10px 10px 10px;
+    float: left;
+
+}
+.box{
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    background-color: blue;
+    margin: 50px;
+    overflow-y: scroll;
+}
+.box p{
+    text-align: justify;
+}
+
+ .end a{
+    text-decoration: none;
+    color: magenta;
+    background-color: black;
+    padding: 20px;
+    margin-left: 100px;
+    background-color: black;
+    border-radius: 10px;
+}
+/* a:hover{
+    background-color: magenta;
+    color: black;
+    transition: all 0.5s;
+} */
+
+.item1{
+    height: 300px;
+    width: 300px;
+    background-color: magenta;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.item2{
+    height: 300px;
+    width: calc(50% - 200px);
+    background-color: blue;
+
+}
+
+.none{
+    display: none;
+}
+.box1{
+    display: flex;
+    gap: 10px;
+}
+h2{
+    margin: 100px;
+    font-family:"Lucida Console", Courier, monospace ;
+}
+
+@font-face {
+    font-family: P135;
+    src: url(../fonts/Explora-Regular.ttf );
+}
+
+h3{
+    font-family: P135;
+    font-size: 25px;
+    margin-left:200px ;
+}
+span{
+    font-family: 'Solitreo', cursive;
+}
+.icon .icon-card{
+    margin: 50px;
+    background-color: black;
+    color: blueviolet;
+    font-size: 30px;
+    border-radius: 10px;
+    border-color: blueviolet;
+    padding: 10px;
+}
+.icon{
+    text-align: center;
+}
+.icon1 .icon-card1{
+    font-size: 25px;
+    background-color: brown;
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 60px;
+    width: 60px;
+    padding-top: 17px;
+    padding-left: 16px;
+    border-radius: 10px;
+
+} 
+.icon1 span{
+    position: absolute;
+    top: 88px;
+    font: size 15px; 
+    padding-top: 1px;
+    padding-left: 6px;
+    font-weight: bold;
+    background-color: rgb(187, 12, 12);
+    color: yellow;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+   
+}
+.icon1{
+    position: relative;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.students{
+    margin-bottom: 100px;
+}
+.students a{
+    text-decoration: none;
+}
+a:nth-child(1) i {
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    margin-left: 20px;
+}
+a:nth-child(2) i {
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+    margin-left: 20px;
+}
+a:nth-child(3) i {
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    margin-left: 20px;
+}
+.students h1{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.plus .plusa i{
+    width: 100px;
+    height: 50px;
+    background-color: blueviolet;
+    color:white;
+    margin: 5px;
+    text-align: center;
+    padding-top: 17px;
+    float: right;
+    margin-right: 20px;
+}

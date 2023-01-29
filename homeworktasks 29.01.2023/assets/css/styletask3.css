@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.empty{
+    height: 50px;
+    background-color: rgb(243, 243, 243);
+}
+
+.i{
+    margin-top: 100px;
+    margin-left: 605px;
+    height: 150px;
+    width: 150px;
+    background-color: chocolate;
+    text-align: center;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.i i{
+   font-size: 50px;
+   color: white;
+   padding-top: 50px;
+}
+.end{
+    text-align: center;
+    margin-left: 505px;
+    margin-right: 400px;
+    margin-top: 30px;
+    width: 350px;
+}
+.end .free{
+    font-size: 30px;
+}
+.end .text{
+    color: rgb(95, 93, 93);
+    line-height: 1.4;
+    font-size: 16px;
+}
